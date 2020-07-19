@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Static and Dynamic lists?</title>
+  </head>
+  <body>
+    <ul>
+      <li>BAM</li>
+      <li>POW</li>
+      <li>KAZAAM</li>
+    </ul>
+    <script>
+      ////HTMLCollection
+      // // let access our list items 
+      // let listItemsTags = document.getElementsByTagName('li');
+      // console.log(listItemsTags);
+      // //let modify a dom and add a list item
+      // listItemsTags[0].parentElement.appendChild(document.createElement('li'))
+      // console.log(listItemsTags);
+
+      //NodeList
+
+      let listItems = document.querySelectorAll('li');
+      console.log(listItems);
+      listItems[0].parentElement.appendChild(document.createElement('li'))
+      console.log(listItems);
+    </script>
+  </body>
+</html>

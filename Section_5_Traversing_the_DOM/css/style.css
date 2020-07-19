@@ -1,0 +1,11 @@
+*{
+  border: 2px solid #dedede;
+  padding: 11px;
+  margin: 13px;
+}
+
+body{
+  max-width: 600px;
+  font-family: sans-serif;
+  columns: #333333;
+}

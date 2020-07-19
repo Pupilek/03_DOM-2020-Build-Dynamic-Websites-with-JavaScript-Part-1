@@ -1,0 +1,23 @@
+
+html {
+  font-family:sans-serif
+}
+
+body {
+  max-width: 650px;
+  margin: 0 auto;;
+}
+
+div, p {
+  padding: 0.43em;
+  margin: 1em 0;
+  border: 1px solid #9c9c9c;
+}
+
+h1 {
+  color:brown;
+}
+
+h2 {
+  color: chocolate;
+}
